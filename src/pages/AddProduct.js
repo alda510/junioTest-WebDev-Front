@@ -11,7 +11,7 @@ const AddProduct = () => {
     const [largura, setLargura] = useState("");
     const [comprimento, setComprimento] = useState("");
     const [productType, setProductType] = useState("0");
-    const endPoint = 'https://juniorweb-test-main-production.up.railway.app/scandiweb/';
+    const endPoint = 'https://juniorweb-test-main-production.up.railway.app/';
     
     async function addProduct() {
         const product = {
