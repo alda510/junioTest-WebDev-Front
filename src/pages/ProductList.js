@@ -16,7 +16,7 @@ const ProductList = () => {
     console.log(skuList)
   }
 
-  const endPoint = 'https://juniorweb-test-main-production.up.railway.app';
+  const endPoint = 'https://juniorweb-test-main-production.up.railway.app/scandiweb/';
 
   async function massDelete(list) {
     const formatedList = {
